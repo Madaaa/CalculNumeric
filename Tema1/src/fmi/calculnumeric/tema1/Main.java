@@ -81,12 +81,20 @@ public class Main {
         metodaSecantei3.calculeazaSolutii(1, error);
 */
 
-        MetodaSecantei metodaSecantei4 = new MetodaSecantei(2.219,2.28); 
+        MetodaSecantei metodaSecantei4 = new MetodaSecantei(2.219,2.28);
         metodaSecantei4.calculeazaSolutii(1, error);
 
 
         System.out.println();
         System.out.println();
+
+        //Metoda Newton
+        System.out.println("=== Metoda Newton ===");
+        MetodaNewton metodaNewton1 = new MetodaNewton(-1.0);
+        metodaNewton1.calculeazaSolutii(0, error);
+
+        MetodaNewton metodaNewton2 = new MetodaNewton(-2.4);
+        metodaNewton2.calculeazaSolutii(0, error);
 
 
     }
