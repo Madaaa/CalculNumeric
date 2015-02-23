@@ -65,6 +65,29 @@ public class Main {
        /* MetodaCoardei metodaCoardei4 = new MetodaCoardei(1.0,2.4);
         metodaCoardei4.calculeazaSolutii(1, error);
 */
+        System.out.println();
+        System.out.println();
+
+        //Metoda secantei
+        System.out.println("=== Metoda secantei ===");
+        MetodaSecantei metodaSecantei1 = new MetodaSecantei(-0.9,-0.75);
+        metodaSecantei1.calculeazaSolutii(1, error);
+
+/*
+        MetodaSecantei metodaSecantei2 = new MetodaSecantei(0.0,1.0);
+        metodaSecantei2.calculeazaSolutii(1, error);
+
+        MetodaSecantei metodaSecantei3 = new MetodaSecantei(-2.0,0.0);
+        metodaSecantei3.calculeazaSolutii(1, error);
+*/
+
+        MetodaSecantei metodaSecantei4 = new MetodaSecantei(2.219,2.28); 
+        metodaSecantei4.calculeazaSolutii(1, error);
+
+
+        System.out.println();
+        System.out.println();
+
 
     }
 }
